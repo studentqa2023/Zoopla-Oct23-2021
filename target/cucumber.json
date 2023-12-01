@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-13T00:27:01.681Z",
+        "line": 4,
+        "name": "As a zoopla user, I should be able to login using valid credentials",
+        "description": "",
+        "id": "zoopla-login-test;as-a-zoopla-user--i-should-be-able-to-login-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the browser and pass the URL",
+            "match": {
+              "location": "com.stepdef.LoginStepDef.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter valid username and password",
+            "match": {
+              "location": "com.stepdef.LoginStepDef.loginTest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login should be successful",
+            "match": {
+              "location": "com.stepdef.LoginStepDef.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Zoopla login test",
+    "description": "",
+    "id": "zoopla-login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ZooplaLogin.feature",
+    "tags": []
+  }
+]

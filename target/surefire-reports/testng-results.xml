@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2416" started-at="2023-01-12T19:27:01 EST" finished-at="2023-01-12T19:27:03 EST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerLogin@26a7b76d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="2416" started-at="2023-01-12T19:27:01 EST" finished-at="2023-01-12T19:27:03 EST">
+      <class name="com.runner.RunnerLogin">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.RunnerLogin@26a7b76d]" name="setUpClass" is-config="true" duration-ms="403" started-at="2023-01-12T19:27:01 EST" finished-at="2023-01-12T19:27:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerLogin@26a7b76d]" name="runScenario" duration-ms="100" started-at="2023-01-12T19:27:01 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-12T19:27:01 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a zoopla user, I should be able to login using valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Zoopla login test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="getExtentReport()[pri:0, instance:com.runner.RunnerLogin@26a7b76d]" name="getExtentReport" is-config="true" duration-ms="416" started-at="2023-01-12T19:27:01 EST" finished-at="2023-01-12T19:27:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.RunnerLogin@26a7b76d]" name="tearDownClass" is-config="true" duration-ms="1471" started-at="2023-01-12T19:27:02 EST" finished-at="2023-01-12T19:27:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.RunnerLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
